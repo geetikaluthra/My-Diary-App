@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFF"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/title_diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/date"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:hint="Add Title"
+        android:padding="10dp"
+        android:background="#FFFF"
+        android:layout_marginTop="10dp"
+        />
+    <ImageButton
+        android:id="@+id/calender"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cal"
+        android:layout_above="@+id/title_diary"
+         />
+
+
+    <EditText
+        android:id="@+id/diary"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFF"
+        android:hint="Start Typing Here"
+        android:gravity="start"
+        android:layout_below="@+id/title_diary"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/diary"/>
+
+
+</RelativeLayout>

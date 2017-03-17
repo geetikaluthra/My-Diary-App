@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_5b44ededfb72285ebff9604344fec9f50df3a4db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\4f5b90447bb1e4b74a11338e46d7fced0c369ed1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f6be7873feb474330c14fb9db73146b6fd410545\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\b6c6be05b3a381ea8915760c4df202600ae8b180\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc144c0ff74ab948ae2cc2b793553279e6dd945d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\25fa3bf69e461294f138f26034157b7151f6cd23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8a680a9c35ea3ea4368f580511e745fa79d3887\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\6b40180c80ea7057b2fe998d9865259c16b52954\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5bbb30a22465d05e8c5c0c96730d900277b93640\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\07edb428ac6e3658b3bdb7fd8da400a25fa65b44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8aa75943b723c9a0e203c3f1f4a3aa6062d39f5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\a1e979f64f6e527512c1553da4b34961e001f24f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87a5923f4ef3fb8d9a8d49a2c445bd9b844292b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_ba1510a26d5c903043c055fc1d18389e347940b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\9557bfbe0d8bba213fe567a24c03ea24a2809a85\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c05cd856666305f8017650aeebc52a23e731fed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\598e5b9bf75b0a3115775d502f053199c36627e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_066c99127eb8ef95c8cf748d3136df3d1b3eea47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\b6f461e40124c8ac67ea37b11925112e0441e8cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4cb1faaeca71076f480f4d13b0ca5664be36f7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\d4a1d90f2fe065117867f79f30f2d0aae23e3938\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17b0cf48708d82ab774828bebbf6fa0665b8dc09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="721c8314de3e856f07401e5a562850b62ea053d3">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_853d34fc38f230eb14d69763ed5372bc9e8d1157\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\e80ec7ebd4f1ea041a41f7503e69e9b6e70bd966\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_838794e5a86278743ca81205a725e4ae1ace658d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_10a44c93a15bab4f22897ad03f088e75410a1adf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\70c68a75fb5dff77132fe81638f28b930ad47d27\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3078221aa236e4431a51cb9c4ab5a1dc7d7f6c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Geetika_Luthra\.android\build-cache\326ada587c363d57f2492a098bd2e99a672fe52d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Geetika_Luthra\AndroidStudioProjects\MyDiary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5f70bb714de2e1f9ed665e33d73383639e5c9e27\classes.dex" />
+    </item>
+
+</items>
