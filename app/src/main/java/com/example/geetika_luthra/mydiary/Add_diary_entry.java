@@ -82,6 +82,7 @@ public class Add_diary_entry extends AppCompatActivity {
                     Diary_dbHelper db = new Diary_dbHelper(Add_diary_entry.this);
                     db.createDiary(title.getText().toString(),text.getText().toString());
                     System.out.println("Entry Added");
+                    Toast.makeText(getApplicationContext(),"Entry Added",Toast.LENGTH_LONG).show();
                     Intent i=new Intent(Add_diary_entry.this,MainActivity.class);
                     startActivity(i);
                     finish();

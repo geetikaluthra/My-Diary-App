@@ -85,7 +85,7 @@ public class Diary_dbHelper extends SQLiteOpenHelper {
     }
 
     public boolean deleteDiary(long rowId) {
-
+        SQLiteDatabase mDb = this.getReadableDatabase();
         return mDb.delete(DATABASE_TABLE, KEY_ROWID + "=" + rowId, null) > 0;
     }
 
@@ -119,7 +119,8 @@ public class Diary_dbHelper extends SQLiteOpenHelper {
         return diaryList;
     }
 
-    public Cursor getDiary(long rowId) throws SQLException {
+    public Diary getDiary(int rowId) throws SQLException {
+        SQLiteDatabase mDb = this.getReadableDatabase();
 
         Cursor mCursor =
 
@@ -129,7 +130,11 @@ public class Diary_dbHelper extends SQLiteOpenHelper {
         if (mCursor != null) {
             mCursor.moveToFirst();
         }
-        return mCursor;
+        System.out.println(mCursor.getString(3)+ " "+mCursor.getString(1)+ " bknn  "+mCursor.getString(2));
+        Diary entry = new Diary(mCursor.getString(3),
+                mCursor.getString(1), mCursor.getString(2));
+        // returning diary entry
+        return entry;
 
     }
 

@@ -35,7 +35,13 @@
         android:background="@drawable/cal"
         android:layout_above="@+id/title_diary"
          />
-
+    <ImageButton
+        android:id="@+id/titleicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit"
+        android:layout_above="@+id/diary"
+        />
 
     <EditText
         android:id="@+id/diary"

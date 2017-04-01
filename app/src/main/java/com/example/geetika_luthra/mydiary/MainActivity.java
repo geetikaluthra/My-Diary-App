@@ -13,16 +13,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import com.example.geetika_luthra.mydiary.com.example.geetika_luthra.mydiary.vo.MyDiaryVO;
-
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,12 +60,18 @@ public class MainActivity extends AppCompatActivity {
         dList = (ListView)findViewById(R.id.dList);
         adapter = new ListAdapter(this,diaryList );
         dList.setAdapter(adapter);
-        dList.setOnClickListener(new View.OnClickListener() {
+        dList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent intent=new Intent(getApplicationContext(),Show_Diary_Entry.class);
+                System.out.println("pos"+position);
+                intent.putExtra("Pos", position);
+                startActivity(intent);
             }
         });
+
+
     }
 
 
@@ -91,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent i=new Intent(MainActivity.this,Settings.class);
+            startActivity(i);
             return true;
         }
 
@@ -101,19 +104,19 @@ public class MainActivity extends AppCompatActivity {
     {
         @SuppressWarnings("unused")
         private Context c;
-        private List<MyDiaryVO> poolList;
+        private List<MyDiaryVO> diaryList;
         private LayoutInflater inflater;
         public ListAdapter(Context context,List<MyDiaryVO> list)
         {
             this.c = context;
-            this.poolList = list;
+            this.diaryList = list;
             inflater = getLayoutInflater();
         }
 
         @Override
         public int getCount() {
             // TODO Auto-generated method stub
-            return poolList.size();
+            return diaryList.size();
         }
 
         @Override
@@ -145,8 +148,8 @@ public class MainActivity extends AppCompatActivity {
             {
                 h= (Holder)convertView.getTag();
             }
-            h.date.setText(poolList.get(position).getDate());
-            h.title.setText(poolList.get(position).getTitle());
+            h.date.setText(diaryList.get(position).getDate());
+            h.title.setText(diaryList.get(position).getTitle());
             return convertView;
         }
 

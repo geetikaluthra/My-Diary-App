@@ -9,22 +9,35 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/diary"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Add_diary_entry"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Add_diary_entry" />
+        <activity android:name=".Show_Diary_Entry" />
+        <activity android:name=".Settings" />
+        <activity android:name=".About" />
+        <activity android:name=".Report_a_bug" />
+        <activity android:name=".Lock_Diary" />
+        <activity android:name=".Edit_Diary_Entry" />
+        <activity android:name=".VerifyLock" />
+        <activity android:name=".ChangeLock" />
+        <activity android:name=".ForgotCode"></activity>
     </application>
 
 </manifest>
